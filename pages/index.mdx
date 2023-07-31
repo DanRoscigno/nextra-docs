@@ -4,9 +4,12 @@ Hello, world!
 
 import Contact from '../components/Contact';
 import Alert from '../components/Alert';
+import SettingTable from '../components/Setting';
 
 <Contact />
 
 <Alert type="warning">This is an important message</Alert>
 <Alert>This is not an important message</Alert>
+
+<SettingTable settingName="this_is_a_setting_name" settingDefault="1024" settingDescription="The max number of setting foo things that can be included" />
 
