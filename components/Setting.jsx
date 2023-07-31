@@ -1,14 +1,8 @@
 function SettingTable(props) {
   return (
     <div>
-      <table>
-      <thead>
-        <tr>
-          <th>{props.settingName}</th>
-          <th></th>
-          <th></th>
-        </tr>
-      </thead>
+      <b>{props.settingName}</b>
+      <table style={{marginLeft: '1em'}}>
       <tbody>
         <tr>
           <td></td>
