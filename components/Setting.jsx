@@ -11,7 +11,7 @@ function SettingTable(props) {
         </tr>
         <tr>
           <td></td>
-          <td>Description</td>
+          <td>Description &nbsp; &nbsp;</td>
           <td>{props.settingDescription}</td>
         </tr>
       </tbody>
