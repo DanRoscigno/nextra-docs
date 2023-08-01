@@ -2,7 +2,7 @@ function SettingTable(props) {
   return (
     <div>
       <b>{props.settingName}</b>
-      <table style={{marginLeft: '1em'}}>
+      <table style={{marginLeft: '1em', align: 'left'}}>
       <tbody>
         <tr>
           <td></td>
@@ -11,11 +11,12 @@ function SettingTable(props) {
         </tr>
         <tr>
           <td></td>
-          <td>Description &nbsp; &nbsp;</td>
+          <td style={{paddingRight: '1em'}}>Description</td>
           <td>{props.settingDescription}</td>
         </tr>
       </tbody>
       </table>
+      <br />
     </div>
   );
 }
