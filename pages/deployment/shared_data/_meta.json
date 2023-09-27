@@ -1,0 +1,5 @@
+{
+  "gcs": "Shared-data using GCS object storage",
+  "s3": "Shared-data using S3 object storage",
+  "minio": "Shared-data using MinIO object storage"
+}
