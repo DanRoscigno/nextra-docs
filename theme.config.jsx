@@ -1,10 +1,10 @@
 export default {
-  logo: <span>My Nextra Documentation</span>,
+  logo: <span>StarRocks Documentation</span>,
   project: {
-    link: 'https://github.com/shuding/nextra'
+    link: 'https://github.com/StarRocks/starrocks'
   },
   i18n: [
-  { locale: 'en', text: 'English' },
-  { locale: 'zh', text: '中文' }
+  { locale: 'en-US', text: 'English' },
+  { locale: 'zh-CN', text: '中文' }
   ]
 }
